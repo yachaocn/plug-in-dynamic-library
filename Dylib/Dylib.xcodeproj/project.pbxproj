@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		679DE1EF1C755AE40018D00D /* CommonDylib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 679DE1F01C755AE50018D00D /* Build configuration list for PBXAggregateTarget "CommonDylib" */;
+			buildPhases = (
+				679DE1F51C755B440018D00D /* ShellScript */,
+			);
+			dependencies = (
+				679DE1F41C755B1F0018D00D /* PBXTargetDependency */,
+			);
+			name = CommonDylib;
+			productName = CommonDylib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		679DE1D11C7555770018D00D /* Dylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 679DE1D01C7555770018D00D /* Dylib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		679DE1D81C7555770018D00D /* Dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679DE1CD1C7555770018D00D /* Dylib.framework */; };
+		679DE1DD1C7555770018D00D /* DylibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 679DE1DC1C7555770018D00D /* DylibTests.m */; };
+		679DE1E91C7555BB0018D00D /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 679DE1E71C7555BB0018D00D /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		679DE1EA1C7555BB0018D00D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 679DE1E81C7555BB0018D00D /* Person.m */; };
+		679DE1ED1C75575E0018D00D /* Desk.h in Headers */ = {isa = PBXBuildFile; fileRef = 679DE1EB1C75575E0018D00D /* Desk.h */; };
+		679DE1EE1C75575E0018D00D /* Desk.m in Sources */ = {isa = PBXBuildFile; fileRef = 679DE1EC1C75575E0018D00D /* Desk.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		679DE1D91C7555770018D00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 679DE1C41C7555770018D00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679DE1CC1C7555770018D00D;
+			remoteInfo = Dylib;
+		};
+		679DE1F31C755B1F0018D00D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 679DE1C41C7555770018D00D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 679DE1CC1C7555770018D00D;
+			remoteInfo = Dylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		679DE1CD1C7555770018D00D /* Dylib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dylib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679DE1D01C7555770018D00D /* Dylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dylib.h; sourceTree = "<group>"; };
+		679DE1D21C7555770018D00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679DE1D71C7555770018D00D /* DylibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DylibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		679DE1DC1C7555770018D00D /* DylibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DylibTests.m; sourceTree = "<group>"; };
+		679DE1DE1C7555770018D00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679DE1E71C7555BB0018D00D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		679DE1E81C7555BB0018D00D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		679DE1EB1C75575E0018D00D /* Desk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Desk.h; sourceTree = "<group>"; };
+		679DE1EC1C75575E0018D00D /* Desk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Desk.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		679DE1C91C7555770018D00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679DE1D41C7555770018D00D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679DE1D81C7555770018D00D /* Dylib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		679DE1C31C7555770018D00D = {
+			isa = PBXGroup;
+			children = (
+				679DE1CF1C7555770018D00D /* Dylib */,
+				679DE1DB1C7555770018D00D /* DylibTests */,
+				679DE1CE1C7555770018D00D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		679DE1CE1C7555770018D00D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				679DE1CD1C7555770018D00D /* Dylib.framework */,
+				679DE1D71C7555770018D00D /* DylibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		679DE1CF1C7555770018D00D /* Dylib */ = {
+			isa = PBXGroup;
+			children = (
+				679DE1D01C7555770018D00D /* Dylib.h */,
+				679DE1E71C7555BB0018D00D /* Person.h */,
+				679DE1E81C7555BB0018D00D /* Person.m */,
+				679DE1EB1C75575E0018D00D /* Desk.h */,
+				679DE1EC1C75575E0018D00D /* Desk.m */,
+				679DE1D21C7555770018D00D /* Info.plist */,
+			);
+			path = Dylib;
+			sourceTree = "<group>";
+		};
+		679DE1DB1C7555770018D00D /* DylibTests */ = {
+			isa = PBXGroup;
+			children = (
+				679DE1DC1C7555770018D00D /* DylibTests.m */,
+				679DE1DE1C7555770018D00D /* Info.plist */,
+			);
+			path = DylibTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		679DE1CA1C7555770018D00D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679DE1D11C7555770018D00D /* Dylib.h in Headers */,
+				679DE1E91C7555BB0018D00D /* Person.h in Headers */,
+				679DE1ED1C75575E0018D00D /* Desk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		679DE1CC1C7555770018D00D /* Dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679DE1E11C7555770018D00D /* Build configuration list for PBXNativeTarget "Dylib" */;
+			buildPhases = (
+				679DE1C81C7555770018D00D /* Sources */,
+				679DE1C91C7555770018D00D /* Frameworks */,
+				679DE1CA1C7555770018D00D /* Headers */,
+				679DE1CB1C7555770018D00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dylib;
+			productName = Dylib;
+			productReference = 679DE1CD1C7555770018D00D /* Dylib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		679DE1D61C7555770018D00D /* DylibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 679DE1E41C7555770018D00D /* Build configuration list for PBXNativeTarget "DylibTests" */;
+			buildPhases = (
+				679DE1D31C7555770018D00D /* Sources */,
+				679DE1D41C7555770018D00D /* Frameworks */,
+				679DE1D51C7555770018D00D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				679DE1DA1C7555770018D00D /* PBXTargetDependency */,
+			);
+			name = DylibTests;
+			productName = DylibTests;
+			productReference = 679DE1D71C7555770018D00D /* DylibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		679DE1C41C7555770018D00D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NavchinaMacBook;
+				TargetAttributes = {
+					679DE1CC1C7555770018D00D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					679DE1D61C7555770018D00D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					679DE1EF1C755AE40018D00D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 679DE1C71C7555770018D00D /* Build configuration list for PBXProject "Dylib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 679DE1C31C7555770018D00D;
+			productRefGroup = 679DE1CE1C7555770018D00D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				679DE1CC1C7555770018D00D /* Dylib */,
+				679DE1D61C7555770018D00D /* DylibTests */,
+				679DE1EF1C755AE40018D00D /* CommonDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		679DE1CB1C7555770018D00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679DE1D51C7555770018D00D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		679DE1F51C755B440018D00D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=${PROJECT_NAME}\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		679DE1C81C7555770018D00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679DE1EE1C75575E0018D00D /* Desk.m in Sources */,
+				679DE1EA1C7555BB0018D00D /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		679DE1D31C7555770018D00D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679DE1DD1C7555770018D00D /* DylibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		679DE1DA1C7555770018D00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 679DE1CC1C7555770018D00D /* Dylib */;
+			targetProxy = 679DE1D91C7555770018D00D /* PBXContainerItemProxy */;
+		};
+		679DE1F41C755B1F0018D00D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 679DE1CC1C7555770018D00D /* Dylib */;
+			targetProxy = 679DE1F31C755B1F0018D00D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		679DE1DF1C7555770018D00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679DE1E01C7555770018D00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		679DE1E21C7555770018D00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dylib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHC.Dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		679DE1E31C7555770018D00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Dylib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHC.Dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		679DE1E51C7555770018D00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DylibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHC.DylibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		679DE1E61C7555770018D00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DylibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZHC.DylibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		679DE1F11C755AE50018D00D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		679DE1F21C755AE50018D00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		679DE1C71C7555770018D00D /* Build configuration list for PBXProject "Dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679DE1DF1C7555770018D00D /* Debug */,
+				679DE1E01C7555770018D00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679DE1E11C7555770018D00D /* Build configuration list for PBXNativeTarget "Dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679DE1E21C7555770018D00D /* Debug */,
+				679DE1E31C7555770018D00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679DE1E41C7555770018D00D /* Build configuration list for PBXNativeTarget "DylibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679DE1E51C7555770018D00D /* Debug */,
+				679DE1E61C7555770018D00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		679DE1F01C755AE50018D00D /* Build configuration list for PBXAggregateTarget "CommonDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679DE1F11C755AE50018D00D /* Debug */,
+				679DE1F21C755AE50018D00D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 679DE1C41C7555770018D00D /* Project object */;
+}
